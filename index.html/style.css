@@ -1,0 +1,45 @@
+ * {
+     box-sizing: border-box;
+ }
+ html {
+     display: block;
+ }
+
+body {
+   margin: 0;
+}
+
+.container {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 100%;
+    padding: 1rem;
+}
+
+h1 {
+    font-family: Outfit;
+    text-align: center;
+    font-weight: 700;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+p {
+    text-align: center;
+    color: hsl(220, 15%, 55%);
+    font-family: Outfit;
+    font-weight: 400;
+}
